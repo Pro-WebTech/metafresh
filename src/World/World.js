@@ -14,7 +14,7 @@ import { AmmoPhysics } from "three/addons/physics/AmmoPhysics.js";
 
 import * as THREE from "three";
 // import {PointerLockControls} from ""
-import { PointerLockControls } from "../three/examples/jsm/controls/Pointerlockcontrols.js";
+import { PointerLockControls } from "../three/examples/jsm/controls/PointerLockcontrols.js";
 
 
  var options = {
