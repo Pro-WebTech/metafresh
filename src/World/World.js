@@ -13,8 +13,8 @@ import { TWEEN } from "tween";
 import { AmmoPhysics } from "three/addons/physics/AmmoPhysics.js";
 
 import * as THREE from "three";
-
-import { PointerLockControls } from "../../vendor/three/examples/jsm/controls/Pointerlockcontrols.js";
+// import {PointerLockControls} from ""
+import { PointerLockControls } from "../three/examples/jsm/controls/Pointerlockcontrols.js";
 
 
  var options = {
