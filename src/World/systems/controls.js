@@ -1,14 +1,14 @@
-// import { OrbitControls } from '../../../vendor/three/examples/jsm/controls/OrbitControls.js';
+// import { OrbitControls } from '../../three/build/three/examples/jsm/controls/OrbitControls.js';
 
 import {
     BoxGeometry,
     MeshStandardMaterial,
     Mesh,
     Group
-} from '../../../vendor/three/build/three.module.js';
+} from '../../three/build/three.module.js';
 import * as THREE from 'three';
 
-import { PointerLockControls } from '../../../vendor/three/examples/jsm/controls/PointerLockControls.js';
+import { PointerLockControls } from '../../three/examples/jsm/controls/PointerLockControls.js';
 import { AmmoPhysics } from 'three/addons/physics/AmmoPhysics.js';
 
 async function createControls(camera, canvas) {

@@ -1,4 +1,4 @@
-import { AnimationMixer } from "../../../../vendor/three/build/three.module.js";
+import { AnimationMixer } from "../../../three/build/three.module.js";
 
 function setupModel(data) {
   console.log("qweqweqweqwe");

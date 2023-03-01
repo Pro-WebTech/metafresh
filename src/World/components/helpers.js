@@ -1,7 +1,7 @@
 import {
     AxesHelper,
     GridHelper,
-} from '../../../vendor/three/build/three.module.js';
+} from '../../three/build/three.module.js';
 
 function createAxesHelper() {
     const helper = new AxesHelper(3000);

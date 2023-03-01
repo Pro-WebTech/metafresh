@@ -3,11 +3,11 @@ import {
   VSMShadowMap,
   sRGBEncoding,
   ACESFilmicToneMapping,
-} from "../../../vendor/three/build/three.module.js";
+} from "../../three/build/three.module.js";
 
 import {
   CSS3DRenderer
-} from '../../../vendor/three/examples/jsm/renderers/CSS3DRenderer.js';
+} from '../../three/examples/jsm/renderers/CSS3DRenderer.js';
 
 function createRenderer() {
   const renderer = new WebGLRenderer({

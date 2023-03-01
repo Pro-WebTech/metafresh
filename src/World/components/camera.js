@@ -1,5 +1,4 @@
-import { PerspectiveCamera } from "../../../vendor/three/build/three.module.js";
-
+import { PerspectiveCamera } from "../../three/build/three.module.js";
 function createCamera() {
   const camera = new PerspectiveCamera(
     60, // fov = Field of View

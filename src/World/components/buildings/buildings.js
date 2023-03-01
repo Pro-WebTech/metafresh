@@ -3,7 +3,7 @@ import {
 } from "three/addons/loaders/FBXLoader.js";
 import {
   AnimationMixer
-} from "../../../../vendor/three/build/three.module.js";
+} from "../../../three/build/three.module.js";
 import * as THREE from "three";
 import {
   setupModel

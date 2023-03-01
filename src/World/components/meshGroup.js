@@ -4,7 +4,7 @@ import {
     MathUtils,
     Mesh,
     MeshStandardMaterial
-} from '../../../vendor/three/build/three.module.js';
+} from '../../three/build/three/build/three.module.js';
 
 function createMeshGroup() {
     // a group holds other objects

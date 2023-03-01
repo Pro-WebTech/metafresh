@@ -1,6 +1,6 @@
 import {
     CSS3DObject
-} from '../../../vendor/three/examples/jsm/renderers/CSS3DRenderer.js';
+} from '../../three/build/three/examples/jsm/renderers/CSS3DRenderer.js';
 
 function createIframeElement(id, x, y, z, ry) {
     const div = document.createElement('div');
