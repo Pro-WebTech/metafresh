@@ -14,7 +14,7 @@ import { AmmoPhysics } from "three/addons/physics/AmmoPhysics.js";
 
 import * as THREE from "three";
 // import {PointerLockControls} from ""
-import { PointerLockControls } from "../three/examples/jsm/controls/PointerLockcontrols.js";
+import { PointerLockControls } from "../three/examples/jsm/controls/PointerLockControls.js";
 
 
  var options = {
@@ -39,8 +39,6 @@ import { PointerLockControls } from "../three/examples/jsm/controls/PointerLockc
   var manager = null;
   if(check == true) manager = nipplejs.create(options);
 console.log('check',check,manager);
-
-
 
 // These variables are module-scoped: we cannot access them
 // from outside the module
